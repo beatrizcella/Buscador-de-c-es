@@ -1,0 +1,118 @@
+:root {
+  --laranja: #ff7a00;
+  --laranja-escuro: #d96400;
+  --laranja-claro: #fff3e6;
+  --branco: #ffffff;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #333;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #ff7a00, #ff9d4d) !important;
+}
+
+.site-header h1,
+.site-header p {
+  color: #ffffff !important;
+}
+
+.text-laranja {
+  color: #ff7a00 !important;
+}
+
+.text-laranja-escuro {
+  color: #d96400 !important;
+}
+
+.card {
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+}
+
+.section-header {
+  background-color: #fff3e6 !important;
+  border-bottom: 2px solid #ff7a00 !important;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.form-control:focus,
+.form-control-lg:focus {
+  border-color: #ff7a00 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 122, 0, 0.25) !important;
+}
+
+.btn-laranja {
+  background-color: #ff7a00 !important;
+  border: 1px solid #ff7a00 !important;
+  color: #ffffff !important;
+}
+
+.btn-laranja:hover,
+.btn-laranja:focus,
+.btn-laranja:active {
+  background-color: #d96400 !important;
+  border-color: #d96400 !important;
+  color: #ffffff !important;
+}
+
+.btn-laranja:disabled {
+  background-color: #ffb36b !important;
+  border-color: #ffb36b !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-laranja {
+  background-color: #ffffff !important;
+  border: 1px solid #ff7a00 !important;
+  color: #d96400 !important;
+}
+
+.btn-outline-laranja:hover,
+.btn-outline-laranja:focus,
+.btn-outline-laranja:active {
+  background-color: #ff7a00 !important;
+  border-color: #ff7a00 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-laranja:disabled {
+  background-color: #ffffff !important;
+  border-color: #ffb36b !important;
+  color: #ffb36b !important;
+}
+
+.dog-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+#gallery .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #ffe0c2;
+}
+
+#gallery .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(255, 122, 0, 0.2) !important;
+}
+
+.random-img {
+  max-height: 420px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border: 3px solid #fff3e6;
+}
+
+.spinner-border.text-laranja {
+  color: #ff7a00 !important;
+}
+
+@media (max-width: 576px) {
+  .dog-img {
+    height: 180px;
+  }
+}
